@@ -121,21 +121,21 @@ section {
     text-align: center;
     background-image: url("../img/marquee-box.png");
     border: 3px solid var(--tertiary-color);
-    margin: 5px;
+    margin: 5px 0;
+    opacity: 0.5;
 }
-.marquee-work a {
-    display: block;
-    position: relative;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+.marquee-work:hover {
+    opacity: 1;
 }
 .work {
     width: 49.5%;
     text-align: center;
     border: 3px solid var(--tertiary-color);
     margin: 5px 0;
+    opacity: 0.5;
+}
+.work:hover {
+    opacity: 1;
 }
 .work-title {
     float: left;
@@ -178,6 +178,7 @@ address {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 address a {
     color: var(--tertiary-color);
