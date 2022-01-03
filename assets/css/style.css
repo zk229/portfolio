@@ -89,7 +89,9 @@ section {
     color: var(--tertiary-color);
     font-size: 24px;
     flex: 1;
-    padding-right: 20px;
+    padding-right: 30px;
+    margin-right: 30px;
+    border-right: solid 3px var(--tertiary-color);
 }
 .intro {
     display: flex;
@@ -112,12 +114,14 @@ section {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
 }
 .marquee-work {
     width: 100%;
     text-align: center;
     background-image: url("../img/marquee-box.png");
     border: 3px solid var(--tertiary-color);
+    margin: 5px;
 }
 .marquee-work a {
     display: block;
@@ -128,8 +132,10 @@ section {
     height: 100%;
 }
 .work {
-    width: 50%;
+    width: 49.5%;
     text-align: center;
+    border: 3px solid var(--tertiary-color);
+    margin: 5px 0;
 }
 .work-title {
     float: left;
@@ -145,6 +151,21 @@ section {
     line-height: 1.2;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
+}
+.work .work-title {
+    width: 50%;
+}
+.box-1 {
+    background-image: url("../img/box-1.png");
+}
+.box-2 {
+    background-image: url("../img/box-2.png");
+}
+.box-3 {
+    background-image: url("../img/box-3.png");
+}
+.box-4 {
+    background-image: url("../img/box-4.png");
 }
 
 .contact {
