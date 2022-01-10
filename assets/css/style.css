@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color: #247BA0;
-    --secondary-color: #E2AFDE;
-    --tertiary-color: #7A5980;
+    --primary-color: #4895ef;
+    --secondary-color: #d3c3d1;
+    --tertiary-color: #7209b7;
 }
 body {
     color: var(--secondary-color);
@@ -76,7 +76,7 @@ section {
     padding: 20px;
     border: solid 3px var(--tertiary-color);
     width: 25%;
-    text-align: right;
+    text-align: center;
     margin: 5%;
     color: var(--secondary-color);
     font-size: 18px;
@@ -180,6 +180,9 @@ address {
     justify-content: space-between;
     align-items: center;
 }
+.info {
+    text-align: center;
+}
 address a {
     color: var(--tertiary-color);
 }
@@ -207,4 +210,81 @@ footer div {
 }
 footer a {
     color: var(--secondary-color);
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOPS */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+    .hero-text {
+        width: 100%;
+    }
+    .section-title {
+        width: 80%;
+    }
+    address div {
+        flex: 0;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+    .section-title {
+        width: 100%;
+        border-bottom: solid 3px var(--tertiary-color);
+        border-right: none;
+        flex: 0 100%;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .intro {
+        justify-content: center;
+    }
+    .work {
+        width: 100%;
+    }
+    .work-title {
+        width: 50%;
+    }
+    .works {
+        justify-content: center;
+    }
+    .contact {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section-text {
+        text-align: center;
+    }
+    address a {
+        width: 80%;
+    }
+    address p {
+        width: 80%;
+    }
 }
