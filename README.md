@@ -7,5 +7,11 @@ Placeholder links are currently dummied out but will be implemented as my portfo
 Here is a current list of what can be found on this portfolio:
 - [Run Buddy](https://zk229.github.io/run-buddy/), a mobile-responsive website for a fictional exercise company built using HTML and CSS
 
-## Screenshots
-To be added
+## Screenshots (WIP)
+Desktop Version:
+
+![The desktop version of the site](./assets/img/wip-desktop.png)
+
+Mobile Version:
+
+![The mobile version of the site](./assets/img/wip-mobile.png)
