@@ -5,7 +5,9 @@ Placeholder links are currently dummied out but will be implemented as my portfo
 
 ## Overview
 Here is a current list of what can be found on this portfolio:
-- [Run Buddy](https://zk229.github.io/run-buddy/), a mobile-responsive website for a fictional exercise company built using HTML and CSS
+- [Coding Quiz](https://zk229.github.io/code-quiz/), a website featuring a multiple choice quiz to practice basic coding knowledge
+- [Weather Dashboard](https://zk229.github.io/weather-dashboard/), a website that uses the Open Weather API to create and display weather forecasts for a given city
+- [COVID EXPosure](https://zk229.github.io/covid-exposure/), a website that allows user to track COVID data from the CDC by county in the state of Florida
 
 ## Screenshots (WIP)
 Desktop Version:
